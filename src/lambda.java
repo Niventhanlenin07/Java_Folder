@@ -9,14 +9,22 @@ import java.util.*;
 //         System.out.println(m.add(5, 7));
 //     }
 // }
+// class lambda{
+//     public static void main(String[] args) {
+//         Integer[]arr={1,2,3,4,5,6};
+//         List<Integer>list=new ArrayList<>(Arrays.asList(arr));
+//         long s=list.stream()
+//         .filter(n->n%2==0)
+//         .mapToLong(n->n)
+//         .count();
+//         System.out.println(s);
+//     }
+// }
 class lambda{
     public static void main(String[] args) {
-        Integer[]arr={1,2,3,4,5,6};
-        List<Integer>list=new ArrayList<>(Arrays.asList(arr));
-        long s=list.stream()
-        .filter(n->n%2==0)
-        .mapToLong(n->n)
-        .count();
-        System.out.println(s);
+        int[]arr={1,2,3,4,5,6};
+        for(int a:arr){
+            System.out.println(a);
+        }
     }
-}
+}    
