@@ -69,20 +69,19 @@
 //         }
 //     }
 // }
-
-class dad{
-    String name;
-    void names(String name){
-        this.name=name;
-    }
-}
-class son extends dad{
+// class dad{
+//     String name;
+//     void names(String name){
+//         this.name=name;
+//     }
+// }
+// class son extends dad{
     
-}
-class exception{
-    public static void main(String[] args) {
-        son s=new son();
-        s.names("Lenin");
-        System.out.println(s.name);
-    }
-}
+// }
+// class exception{
+//     public static void main(String[] args) {
+//         son s=new son();
+//         s.names("Lenin");
+//         System.out.println(s.name);
+//     }
+// }
