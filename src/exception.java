@@ -1,5 +1,4 @@
 // import javax.xml.transform.Source;
-
 // public class exception {
 //     public static void main(String[] args) {
 //         int flag=0;
@@ -7,7 +6,6 @@
 //             int a=10;
 //             int b=0;
 //             int c=a/b;
-
 //         }catch(ArithmeticException e){
 //             flag=1;
 //             System.out.println("Zero by division error");
