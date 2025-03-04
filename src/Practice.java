@@ -62,3 +62,12 @@
 //         Animal a=new Animal(2,3);
 //     }
 // }
+class Practice{
+    public static void main(String[] args) {
+        String s="123";
+        String s1="Hello";
+        if(s==s1){
+            System.out.println("Equal");
+        }
+    }
+}
