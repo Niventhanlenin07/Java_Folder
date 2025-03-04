@@ -62,12 +62,46 @@
 //         Animal a=new Animal(2,3);
 //     }
 // }
-class Practice{
-    public static void main(String[] args) {
-        String s="123";
-        String s1="Hello";
-        if(s==s1){
-            System.out.println("Equal");
-        }
-    }
-}
+
+// class Practice{
+//     public static void main(String[] args) {
+//         int i=69;
+//         switch (i) {
+//             case 65:
+//                 System.out.println("A");
+//                 break;
+        
+//             case 66:
+//                 System.out.println("B");
+//                 break;
+//             case 67:
+//                 System.out.println("C");
+//                 break;
+//             case 68:
+//                 System.out.println("D");
+//                 break;    
+//             default:
+//                 System.out.println("No match");
+//                 break;        
+//         }
+//     }
+// }
+
+// class Practice{
+//     int sum;
+//     Practice(){
+//         sum=10;
+//     }
+//     public void method(int num){
+//         if(num==0){
+//             System.out.println(sum);
+//         }else{
+//             sum+=num;
+//             method(num-1);
+//         }
+//     }
+//     public static void main(String[] args) {
+//         Practice p=new Practice();
+//         p.method(10);
+//     }
+// }
