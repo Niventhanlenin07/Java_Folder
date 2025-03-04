@@ -51,3 +51,22 @@
 //         c2.interrupt();
 //     }
 // }
+// class counter implements Runnable{
+//     int count=0;
+//     public void run(){
+//         count=5;
+//     }
+// }
+// class Threads{
+//     public static void main(String[] args) {
+//         counter c=new counter();
+//         Thread t=new Thread(c);
+//         t.start();
+//         try{
+//             t.join();
+//         }catch(InterruptedException e){
+//             System.out.println(e.getMessage());
+//         }
+//         System.out.println(c.count);
+//     }
+// }
