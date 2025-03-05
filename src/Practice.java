@@ -105,12 +105,12 @@
 //         p.method(10);
 //     }
 // }
-interface Work {
-    abstract void method();
-}
-class Practice{
-    public static void main(String[] args) {
-        Work w=()->{System.out.println("Welcome all!!!");};
-        w.method();
-    }
-}
+// interface Work {
+//     abstract void method();
+// }
+// class Practice{
+//     public static void main(String[] args) {
+//         Work w=()->{System.out.println("Welcome all!!!");};
+//         w.method();
+//     }
+// }
